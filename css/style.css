@@ -5,26 +5,50 @@
 
 h1 {
     margin-bottom: 1em;
+    display:inline-block;
+    float: left;
+}
+
+#about h1::after  {
+    content: "  👋";
+  }
+
+.emoji p {
+    display:inline-block;
+    width: 1em;
+    height: 2em;
+    font-size
+   
+
 }
 
 h5 {
     /* text-align: center; */
     margin: 1rem auto;
-
-
 }
 
 
-.col-sm-3 {
+.main div {
+    border: 1px
+}
+
+.col-sm-2 {
     list-style: none;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     margin: 3rem auto;
 }
 
-.col-sm-9 {
+.col-sm-10 {
     margin: 6rem auto;
+    /* border: 1px solid black; */
+    padding: 3rem 3rem 3rem 3rem;
+    
 
+}
+
+.col-sm-10 p {
+    clear: both;
 }
 
 
@@ -36,13 +60,13 @@ li {
 }
 
 .col-padding {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* text-align: center; */
     
 }
 
 ul {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 2rem 0;
     padding: 0;
 
@@ -60,3 +84,9 @@ li a:hover {
     background-color: #555;
     color: white;
   }
+
+
+.main {
+    margin: 0 auto;
+
+}
