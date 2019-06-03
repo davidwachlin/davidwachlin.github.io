@@ -11,9 +11,13 @@
     overflow-x: hidden; 
     padding-top: 20px;
     margin-top: 4rem;
+
   }
 
-
+img {
+  position: relative;
+  left: 17px;
+}
 
 .sidenav h5 {
     text-align: center;
@@ -47,8 +51,12 @@
       width: 100%;
       height: auto;
       position: relative;
-      
     }
+    .sidenav img {
+      display: none;
+    }
+      
+    
     .sidenav a {
         float: left;
         margin: 0 1.2rem;
